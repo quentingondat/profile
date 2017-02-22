@@ -40,6 +40,11 @@ h1, h2, h3 {
   line-height: 1.5em;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
 .img-circle {
   width: 100px;
   height: 100px;
@@ -91,6 +96,34 @@ h1, h2, h3 {
 .list-inline li i{
   font-size: 25px;
 }
+
+.sidebar {
+  position: fixed;
+  width: 50px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #210203;
+}
+
+.sidebar li {
+  padding: 15px 13px;
+}
+
+.sidebar li i {
+  font-size: 22px;
+  color: white;
+}
+
+.sidebar li i:hover {
+  color: #D52941;
+}
+
+.content-container {
+  margin-left: 50px;
+}
+
+/*######### IDs #########*/
 
 #movies td{
   padding: 10px;
